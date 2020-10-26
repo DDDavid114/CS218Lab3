@@ -1,0 +1,86 @@
+header{
+   background-color: darkblue;
+   margin:10px 5% 5px;
+   padding: 10pt;
+}
+
+body{
+   background-color: #e8eaf6;
+   margin:10px 5% 5px;
+   border: transparent;
+}
+
+h1{
+   font-family: "Blippo", fantasy;
+   font-style: italic;
+   color: white;
+   font-size: 40pt;
+}
+
+p.italic {font-style:italic; color: white;font-size: 20pt;}
+div.photoDetail{background-color: #9fa8da;color: white;height: 40pt;font-size: 25pt;}
+
+form{
+   padding: 10pt;
+   margin:10px 5% 5px;
+   background-color: white;
+}
+
+table{
+   width: 100%;
+   height: 100%;
+   padding: 10pt;
+   border-spacing: 10pt;
+   background-color: #c5cae9;
+}
+
+input[type=text].description{
+   height: 80pt;
+}
+
+td.borderLine{
+   border: solid 1pt #9fa8da;
+   padding: 5pt;
+}
+
+tr.important{
+   background-color: #9fa8da;
+   height: 40pt;
+}
+
+select{
+   height: 20pt;
+}
+
+input[type=text] {
+   width: 100%;
+   height: 20pt;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+  
+ input[type=submit] {
+   margin-left: 5pt;
+   width: 50pt;
+   height: 20pt;
+   background-color: #e91e63;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+  
+ input[type=reset] {
+   margin-left: 5pt;
+   width: 50pt;
+   height: 20pt;
+   background-color: #e91e63;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }

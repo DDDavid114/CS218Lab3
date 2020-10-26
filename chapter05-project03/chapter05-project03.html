@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/chapter05-project03.css" />
+	<meta charset="utf-8">
+	<title>Share Your Travels -- New York - Central Park</title>
+</head>
+
+<body>
+	<header>
+		<h1>Share Your Travels</h1>
+		<p class="italic">Let us know where you've been</p>
+	</header>
+	<main>
+		<form method="post" action="http://www.randyconnolly.com/tests/process.php" autocomplete="on">
+			<div class="photoDetail">PHOTO DETAILS</div>
+			<table>
+				<tr>
+					<td colspan="2">
+						<label>Title</label>
+						<input type="text" name="title" />
+						<br>
+						<label>Description</label><br />
+						<input type="text" name="description" class="description"/>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Continent</label><br />
+						<select name="continent">
+							<option>Select an continent</option>
+							<option>North America</option>
+							<option>South America</option>
+							<option>Asia</option>
+							<option>Europe</option>
+							<option>Africa</option>
+							<option>Austrilia</option>
+						</select>
+						<br>
+						<label>Country</label><br />
+						<select name="country">
+							<option>Select an country</option>
+							<option>US</option>
+							<option>Canada</option>
+							<option>Mexico</option>
+							<option>UK</option>
+							<option>French</option>
+							<option>Germany</option>
+							<option>China</option>
+							<option>Korean</option>
+							<option>Japan</option>
+							<option>Austrilia</option>
+						</select>
+						<br>
+						<label>City</label><br />
+						<input type="text" name="city" />
+					</td>
+					<td>
+						<table>
+							<tr>
+								<td class="borderLine">
+									<label>Copyright?</label><br />
+									<input type="radio" name="copyright" value="1">All rights reserved <br />
+									<input type="radio" name="copyright" value="2" checked>Creative Commons
+								</td>
+							</tr>
+							<tr>
+								<td class="borderLine">
+									<label>Creative Commons Types</label><br />
+									<input type="checkbox" name="creativeCommonsTypes" value="1" checked>Attribution
+									<br />
+									<input type="checkbox" name="creativeCommonsTypes" value="2">Noncommerical
+									<br />
+									<input type="checkbox" name="creativeCommonsTypes" value="3" checked>No Derivative Works
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr class="important">
+					<td colspan="2">
+						<label>I accept the software license</label>
+						<input type="checkbox" name="accept" value="on">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Rate this photo:</label><br />
+						<input type="number" min="1" max="10" name="rate" />
+						<br>
+						<label>Color Collection:</label><br />
+						<input type="color" name="color" />
+					</td>
+					<td class="borderLine">
+						<label>Date Taken:</label><br />
+						<input type="date" name="date" />
+						<br>
+						<label>Time Taken:</label><br />
+						<input type="time" name="time">
+					</td>
+					<br>
+				</tr>
+				<tr class="important">
+					<td colspan="2">
+						<input type="submit" />
+						<input type="reset" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</main>
+</body>
+
+</html>
